@@ -413,7 +413,8 @@
     "socket.io": "2.1.1",
     "source-map": "^0.6.1",
     "tmp": "0.0.33",
-    "useragent": "2.3.0"
+    "useragent": "2.3.0",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "browserify": "^16.2.3",
@@ -490,6 +491,9 @@
     "appveyor": "npm run build && npm run test:appveyor",
     "travis": "npm run build && npm test && npm run test:integration",
     "commitmsg": "validate-commit-msg",
-    "precommit": "npm run lint"
-  }
+    "precommit": "npm run lint",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
+  },
+  "snyk": true
 }
