@@ -408,9 +408,9 @@
     "optimist": "^0.6.1",
     "qjobs": "^1.1.4",
     "range-parser": "^1.2.0",
-    "rimraf": "^2.6.0",
+    "rimraf": "^4.3.1",
     "safe-buffer": "^5.0.1",
-    "socket.io": "2.1.1",
+    "socket.io": "4.8.0",
     "source-map": "^0.6.1",
     "tmp": "0.0.33",
     "useragent": "2.3.0"
